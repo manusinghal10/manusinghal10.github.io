@@ -4,16 +4,18 @@ html {
 body {
     background-color:deepskyblue;
 }
+.Home img{height:360px;
+    width:240px;
+    margin-right:8em;
+    margin-top:2em;
+    border-radius:20px;
+    border: 5px solid black;
+}
 .Home {
     background-color:deepskyblue;
 }
-.Home img{position:absolute;
-    right:120px;
-    height:360px;
-    width:240px;
-    bottom:320px;
-    border-radius:20px;
-    border: 5px solid black;
+.grid {grid-auto-columns: 100px;
+    grid-gap:20px;
     
 }
 .navbar{
@@ -43,13 +45,21 @@ body {
     text-decoration: none;
 }
 .name{ margin-left:4em;}
-.nav{ margin-right:2em;}
+.sec{ margin-right:2em;}
 
 .navbar a:hover{
     color:black;
     text-decoration:underline;
     font-size:32pt;
     
+}
+.navbar a:active{color:black;
+    text-decoration:underline;
+    font-size:32pt;
+}
+.navbar a .active {color:black;
+text-decoration:underline;
+font-size:32pt;
 }
 h1 {font-size:50pt;
     margin-left:2em;
@@ -103,7 +113,7 @@ h1 {font-size:50pt;
     background-color:white;
     
 }
-h2{ margin-top:3em;
+h2{margin-top:3em;
     font-size:60pt;
     text-align:center;
     padding:80px;
