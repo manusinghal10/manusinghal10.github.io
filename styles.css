@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    background-color:deepskyblue;
+}
+.Home {
+    background-color:deepskyblue;
+}
+.Home img{position:absolute;
+    right:120px;
+    height:360px;
+    width:240px;
+    bottom:320px;
+    border-radius:20px;
+    border: 5px solid black;
+    
+}
+.navbar{
+    background-image: linear-gradient(to bottom right, maroon,red);
+    border-radius:50px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:1px;
+    width:100%;
+    z-index:1;
+    
+}
+.navbar a{
+
+    overflow:hidden;
+    
+}
+
+.navbar a{
+    float:left;
+    list-style:none;
+    font-size:30pt;
+    color: white;
+    margin: 10px 13px;
+    padding: 3px 3px;
+    text-decoration: none;
+}
+.name{ margin-left:4em;}
+.nav{ margin-right:2em;}
+
+.navbar a:hover{
+    color:black;
+    text-decoration:underline;
+    font-size:32pt;
+    
+}
+h1 {font-size:50pt;
+    margin-left:2em;
+    color:black;
+    border-radius:50px;
+}
+.describe{font-size:20pt;
+    margin-left:4em;
+    color:black;
+    margin-bottom:3em;
+
+    
+}
+.button{
+    display:flex;
+    justify-content
+    align-items: flex-start;
+}
+
+.button1 a{
+    text-decoration:none;
+    font-size:30pt;
+    padding: 5px 10px;
+    color:white;
+    background-color:maroon;
+    background-image: linear-gradient( to bottom right, maroon,red);
+    margin-left:6em;
+    border-radius:5px;
+}
+.button1 a:hover{
+    color:black;
+    background-image: linear-gradient( to bottom right, white, white);
+    border:5px solid maroon;
+}
+.button2 a:hover{color:black;
+    background-image: linear-gradient( to bottom right, white, white);
+    border:5px solid maroon;
+    border-radius:5px;
+}
+.button2 a{text-decoration:none;
+    font-size:30pt;
+    padding:5px 30px;
+    color:white;
+    background-color:maroon;
+    background-image: linear-gradient( to bottom right, maroon,red);
+    margin-left:2em;
+    border-radius:5px;
+    
+}
+.My_Hobbies {border-radius:10px;
+    background-color:white;
+    
+}
+h2{margin-top:1em;
+    font-size:60pt;
+    text-align:center;
+    padding:80px;
+    background-color:maroon;
+    background-image: linear-gradient( to bottom right, maroon,red);
+    color:white;
+    border-radius:10px;
+}
+.My_Hobbies{background-color:white;
+    
+}
+
+.icon img{
+    margin-left:7em;
+    margin-top:5em;
+    
+}
+.caption {font-size:50px;
+    margin-left:2em;
+}
+.Skills {background-color:white;
+    border-radius:10px;
+}
+h3{
+    font-size:80pt;
+    text-align:center;
+    border-radius:10px;
+    background-image: linear-gradient( to bottom right, maroon,red);
+    color:white;
+    
+}
+.quizrating {border:2px solid maroon;
+    width:700px;
+    height:20px;
+    margin-left:20em;
+}
+.quizratings {background-color:maroon;
+    background-image: linear-gradient( to bottom right, maroon,red);
+    width:550px;
+    height:20px;
+}
+.quiz img{height:50px;
+    width:50px;
+    position:absolute;
+    left:350px;
+    
+    
+}
+.quiz p{margin-left:10em;
+    font-size:30pt;
+}
+.debaterating {border:2px solid maroon;
+    width:700px;
+    height:20px;
+    margin-left:20em;
+}
+.debateratings{background-color:maroon;
+    background-image: linear-gradient( to bottom right, maroon,red);
+    width:400px;
+    height:20px;
+}
+.debate img{height:70px;
+    width:90px;
+    position:absolute;
+    left:320px;
+}
+.debate p{margin-left:10em;
+    font-size:30pt;
+}
+.webrating{border:2px solid maroon;
+    width:700px;
+    height:20px;
+    margin-left:20em;
+    
+}
+.webratings{background-color:maroon;
+    background-image: linear-gradient( to bottom right, maroon,red);
+    width:600px;
+    height:20px;
+}
+.webd img{height:50px;
+    width:50px;
+    position:absolute;
+    left:340px;
+}
+.webd p{margin-left:10em;
+    font-size:30pt;
+    
+}
